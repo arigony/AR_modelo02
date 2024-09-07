@@ -38,12 +38,15 @@
                 <a-entity
                     id="bowser-model"
                     scale="8.887396152055532 8.887396152055532 8.887396152055532"
-                    rotation="45 90 180"
-                    animation-mixer="loop: repeat"
+                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
                     class="clickable"
                     gesture-handler
                 ></a-entity>
+         <a-entity id="bowser-model" rotation="0 45 0">
+        <a-entity id="child1"></a-entity>
+        <a-entity id="child2" rotation="15 45 30"></a-entity>
+</a-entity>
             </a-marker>
             <a-entity camera></a-entity>
         </a-scene>
